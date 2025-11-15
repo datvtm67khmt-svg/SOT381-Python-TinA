@@ -1,0 +1,5 @@
+ten = input("Tên của bạn: VO TRAN MINH DAT ")
+CanNang = int(input("Cân nặng (kg):  "))
+ChieuCao = float(input("Chiều cao (m):  ")) 
+BMI = CanNang / (ChieuCao ** 2)
+print("Chỉ số BMI của bạn", ten, "là:", BMI) 
